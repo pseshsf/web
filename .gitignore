@@ -1,0 +1,9 @@
+# Composants inutiles à versionner
+/assets/components/
+/assets/css/
+
+#
+config.core.php
+/connectors/
+/core/
+/manager/
