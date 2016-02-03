@@ -7,3 +7,6 @@
 
 # Cache de la compilation du SASS
 /src/compass/.sass-cache/
+
+# Fichiers temporaires ou de backups
+*.old
