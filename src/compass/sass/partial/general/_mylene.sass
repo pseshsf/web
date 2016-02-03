@@ -1,0 +1,108 @@
+// Code originel de Mylène a répartir dans différents partials
+// pour améliorer la maintenabilité
+
+
+
+
+
+.clear-fix
+  &:after
+    content: ""
+    display: table
+    clear: both
+
+
+
+
+
+.ppl
+  font-weight: 400!important
+  display: block
+  text-transform: none!important
+
+/* Grille */
+.contenu
+  @extend .wrap
+  position: relative
+  background: white
+  border-top: 5px solid $yellow
+  padding: 3*$space
+  background: white
+  margin-top: 20px
+  &.archives div
+    text-align: center
+    text-transform: uppercase
+    font-weight: 700
+    margin-bottom: 20px
+    margin-top: 20px
+    div
+      margin-bottom: 0
+      margin-top: 0
+  hr
+    display: block
+    height: 1px
+    border: none
+    border-top: 1px solid $light
+    clear: both
+    margin: 3*$space 0
+
+  section
+    @extend .clear-fix
+    &.icons
+      margin: 20px 0 0 0
+      div
+        text-align: center
+        @extend .col-3
+        &:before
+          border: 2px solid $dark
+          +border-radius(50%)
+          padding: .8em
+          margin: 0  0 10px 0
+          font-size: 180%
+        h3
+          margin-bottom: 0
+    &.presentation div
+      @extend .col-6
+    &.volontaires div
+      @extend .col-4
+      text-align: justify
+.up
+  margin-top: -160px
+
+
+
+
+
+
+.type
+  display: inline-block
+  vertical-align: middle
+  +border-radius(50%)
+  +box-sizing(border-box)
+  font-size: 10px
+  line-height: 15px
+  width: 15px
+  height: 15px
+  text-align: center
+  text-transform: uppercase
+  margin-bottom: 2px
+  font-weight: 900!important
+  color: white
+  &.conf
+    background: $yellow
+  &.atelier
+    background: $blue
+  &.tr
+    background: $dark
+  &.metro-3
+    background: #C4CA0C
+  &.metro-4
+    background: #B8268F
+
+
+
+.venir
+  @extend .clear-fix
+  margin: 20px 0 40px 0
+
+

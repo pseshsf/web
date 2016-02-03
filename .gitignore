@@ -1,17 +1,9 @@
-# Composants inutiles à versionner
-/assets/components/
+# Feuilles de styles CSS compilées
 /assets/css/
-
-# Fichier de conf de MODX
-config.core.php
-
-# Répertoires MODX inutiles à versionner
-/connectors/
-/core/
-/manager/
 
 # Bibliothèques et packages nécessaires à la compilation du SASS mais qui ne doivent pas être versionnés
 /src/vendor/
+/src/.bundle/
 
 # Cache de la compilation du SASS
 /src/compass/.sass-cache/
