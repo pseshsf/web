@@ -18,4 +18,5 @@ La compilation
 - compilez les SASS avec la commande "bundle exec compass compile -e production --force --sourcemap"
 
 Les fichiers CSS seront générés dans le répertoire /assets/css/
+
 Il suffira ensuite les envoyer sur le serveur.
