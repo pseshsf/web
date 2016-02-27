@@ -1,10 +1,11 @@
-# PSES-HSF
+# PSESHSF
 
-Ce dépôt contient les éléments du site web de PSES, à savoir :
+Ce dépôt contient les éléments statiques du site PSES, à savoir :
 - les fonts
 - les fichiers JS
 - les images
 - les sources SASS permettant de générer les feuilles de styles CSS
+
 
 Prérequis pour compiler les CSS à partir des SASS
 -------------------------------------------------
@@ -20,4 +21,3 @@ La compilation
 Les fichiers CSS seront générés dans le répertoire /assets/css/
 
 Il suffira ensuite les envoyer sur le serveur.
-
