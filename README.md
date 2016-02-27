@@ -20,3 +20,4 @@ La compilation
 Les fichiers CSS seront générés dans le répertoire /assets/css/
 
 Il suffira ensuite les envoyer sur le serveur.
+
