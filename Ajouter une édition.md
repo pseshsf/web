@@ -1,10 +1,11 @@
 # Ajouter une édition
 
-Chaque année, il va falloir intervebir sur le site pour :
+Chaque année, il va falloir intervenir sur le site pour :
 - ajouter une nouvelle année et commencer à créer les jours, les salles et les Events
-- quand la programmation sera publiable (même non finalisée), il faudra passer l'année précédente en archive
+- quand la programmation sera publiable, il faudra passer l'année précédente en archive
 
 Voyons voir comment faire tout cela en détail :)
+Tout ce qui suit se fait depuis le manager MODX.
 
 ## Ajouter une nouvelle édition
 
